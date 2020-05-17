@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="139px" height="280px" viewBox="0 0 139 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>6 Plus Passive</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-Repair" transform="translate(-897.000000, -1211.000000)" stroke-width="0.549019608">
+            <g id="Group-8" transform="translate(120.000000, 768.000000)">
+                <g id="Group-10">
+                    <g id="iPhone-8-Copy-2" transform="translate(736.000000, 411.000000)">
+                        <g id="6-Plus-Passive" transform="translate(41.000000, 32.000000)">
+                            <g id="Body">
+                                <path d="M137.136376,59.8347662 L137.136376,79.5615786 L137.495486,79.5615786 C137.868786,79.5615786 138.171405,79.258959 138.171405,78.8856588 L138.171405,60.510686 C138.171405,60.1373858 137.868786,59.8347662 137.495486,59.8347662 L137.136376,59.8347662 Z" id="Botton-4" stroke="#333333"></path>
+                                <path d="M1.30953957,104.906369 L1.30953957,85.1795562 L0.950429624,85.1795562 C0.577129415,85.1795562 0.274509804,85.4821758 0.274509804,85.855476 L0.274509804,104.230449 C0.274509804,104.603749 0.577129415,104.906369 0.950429624,104.906369 L1.30953957,104.906369 Z" id="Botton-3" stroke="#333333"></path>
+                                <path d="M1.30953957,79.5615786 L1.30953957,59.8347662 L0.950429624,59.8347662 C0.577129415,59.8347662 0.274509804,60.1373858 0.274509804,60.510686 L0.274509804,78.8856588 C0.274509804,79.258959 0.577129415,79.5615786 0.950429624,79.5615786 L1.30953957,79.5615786 Z" id="Botton-2" stroke="#333333"></path>
+                                <path d="M1.30953957,46.6133516 L1.30953957,35.7572158 L0.950429624,35.7572158 C0.577129415,35.7572158 0.274509804,36.0598354 0.274509804,36.4331356 L0.274509804,45.9374318 C0.274509804,46.310732 0.577129415,46.6133516 0.950429624,46.6133516 L1.30953957,46.6133516 Z" id="Botton-1" stroke="#333333"></path>
+                                <rect id="Outside" stroke="#333333" x="1.5417493" y="0.274509804" width="135.362417" height="279.1941" rx="20.275832"></rect>
+                                <rect id="Inside" stroke="#CCCCCC" x="3.44260855" y="2.17536905" width="131.560698" height="275.392381" rx="19.0085925"></rect>
+                            </g>
+                            <g id="Accessories-" transform="translate(45.303812, 8.237057)">
+                                <g id="Botton" transform="translate(13.306015, 242.042744)">
+                                    <circle id="Outside" stroke="#333333" cx="10.6131308" cy="10.6131308" r="10.338621"></circle>
+                                    <circle id="Inside" stroke="#CCCCCC" cx="10.6131308" cy="10.6131308" r="9.0713815"></circle>
+                                </g>
+                                <g id="Camera" transform="translate(0.000000, 7.603437)" stroke="#CCCCCC">
+                                    <circle id="Outside" cx="2.534479" cy="2.534479" r="2.25996919"></circle>
+                                    <circle id="Inside" cx="2.534479" cy="2.534479" r="1.30953957"></circle>
+                                </g>
+                                <rect id="Speaker" stroke="#CCCCCC" x="12.313285" y="9.14518629" width="23.211721" height="1.98545939" rx="0.992729694"></rect>
+                                <circle id="Sensor" stroke="#CCCCCC" cx="23.9191455" cy="1.42564444" r="1.15113463"></circle>
+                            </g>
+                            <rect id="Screen_375x667" stroke="#333333" fill="#E3E3E3" x="10.0956159" y="34.4899763" width="118.254683" height="210.763167"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
