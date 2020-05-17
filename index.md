@@ -24,17 +24,17 @@
             Swell
         </span>
     </a>
-    <a class="item" href="Colebil/index.html" style="background-image: url('colebil.jpg')">
-        <span>
-            Colebil
-        </span>
-    </a>
+   
     <a class="item" href="Doterra/index.html" style="background-image: url('doterra.jpg')">
         <span>
             Doterra
         </span>
     </a>
-
+    <a class="item" href="Triferment/index.html" style="background-image: url('triferment.jpg')">
+        <span>
+            Triferment
+        </span>
+    </a>
     <a class="item" href="FeedbackShots/index.html" style="background-image: url('feedback.jpg')">
         <span>
             FeedbackShots
@@ -60,9 +60,9 @@
             Meningita
         </span>
     </a>
-    <a class="item" href="Triferment/index.html" style="background-image: url('triferment.jpg')">
+     <a class="item" href="Colebil/index.html" style="background-image: url('colebil.jpg')">
         <span>
-            Triferment
+            Colebil
         </span>
     </a>
 </div>
