@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Grandeur - Get restaurant dishes without leaving homes">
+  <meta name="robots" content="index,follow" />
+  <meta name="keywords" content="Grandeur, restaurant, restaurant dishes" />
+
+  <title>Grandeur Restaurant</title>
+
+  <meta property="og:image" content="img/social_photo.png"/>
+  <meta property="og:image:width" content="600" />
+  <meta property="og:image:height" content="600" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Grandeur"/>
+  <meta property="og:description" content="The website will be ready soon (but we are not shure)." />
+  <!-- <meta property="og:url" content="http://grandeur.splitdev.pro/"/> -->
+  <meta property="og:site_name" content="Grandeur"/>
+  <meta name="twitter:card" content="summary" />
+  <meta name="theme-color" content="#ecf5bb" />
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <!-- fonts -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <!-- <link rel="manifest" href="favicon/site.webmanifest"> -->
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#ecf5bb">
+  <meta name="msapplication-TileColor" content="#ecf5bb">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--Slick Slider -->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="js/fm.revealator.jquery.css"/>
+</head>
+<body>
+<header>
+  <div id="header-preloader" class="header-preloader-appear"><div class="header-content-preloader revealator-zoomin revealator-duration4"></div></div>
+    <div class="container header-search-form"><input type="search" placeholder="Type to search..."></div>
+  <div class="container menu-container">
+      <nav>
+        <a href="#" class="logo">Grandeur</a>
+        <ul class="desktop-menu">
+          <li><a href="#menu-menu">Menu</a></li>
+          <li><a href="#menu-recipes">Recipes</a></li>
+          <li><a href="#menu-about">About us</a></li>
+          <li><a href="#menu-blog">Blog</a></li>
+          <li><a href="#menu-contact">Contact</a></li>
+        </ul>
+        <div class="header-buttons">
+            <div class="header-search"><a href="#"><img src="img/header-search.svg" alt="Search"></a></div>
+            <div class="header-bag"><a href="#"><img src="img/header-bag.svg" alt="Bag"></a><span>12</span></div>
+            <div class="header-basket">
+                <strong>Basket</strong>
+                <div class="header-basket-item">
+                    <img src="img/basket-1.png" alt="Delicious dish">
+                    <div class="header-basket-item-content">
+                        <h3>Chicken and Red Plum Salad</h3>
+                        <p class="price">$30</p>
+                    </div>
+                </div>
+                <div class="header-basket-item">
+                    <img src="img/basket-2.png" alt="Delicious dish">
+                    <div class="header-basket-item-content">
+                        <h3>Some kind of delicious dish</h3>
+                        <p class="price">$30</p>
+                    </div>
+                </div>
+                <div class="header-basket-bottom">
+                    <a class="header-basket-bottom-more" href="">10+ more dishes</a>
+                    <div class="header-basket-bottom-total">
+                        <div>Total</div>
+                        <div class="price">300$</div>
+                    </div>
+                    <a class="button" href="#">Checkout</a>
+                </div>
+            </div>
+        </div>
+        <div class="hamburger" id="expand-button">
+          <i class="fas fa-hamburger"></i>
+        </div>
+        <div id="expand-menu" class="mobile-menu-container">
+          <ul class="mobile-menu">
+            <li><a href="#menu-menu">Menu</a></li>
+            <li><a href="#menu-recipes">Recipes</a></li>
+            <li><a href="#menu-about">About us</a></li>
+            <li><a href="#menu-blog">Blog</a></li>
+            <li><a href="#menu-contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  <div class="container">
+    <div class="head-content row">
+      <div class="head-content-left col-md-6">
+        <h1>Get restaurant dishes without leaving home</h1>
+        <a class="button" href="#">Place an Order</a>
+      </div>
+      <div class="head-content-right col-md-6">
+        <img src="img/header-1.png" alt="Grandeur | Get restaurant dishes without leaving home">
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="how-it-works">
+  <div class="container">
+    <h2 class="revealator-fade revealator-duration4">How it works</h2>
+    <div class="row justify-content-center how-it-works-container">
+      <div class="how-it-works-item revealator-fade revealator-duration4">
+        <div class="how-it-works-image">
+          <img src="img/how-it-works-1.svg" alt="Ordering">
+        </div>
+        <h3>Ordering</h3>
+        <p>Food is just a few taps away. Plus, group ordering makes entertaining a breeze.</p>
+      </div>
+
+      <div class="how-it-works-item revealator-fade revealator-duration4">
+        <div class="how-it-works-image">
+          <img src="img/how-it-works-2.svg" alt="Payment">
+        </div>
+        <div class="how-it-works-dots"></div>
+        <h3>Payment</h3>
+        <p>Several payment methods are available. Pay on delivery by cash or by credit card.</p>
+      </div>
+
+      <div class="how-it-works-item revealator-fade revealator-duration4">
+        <div class="how-it-works-image">
+          <img src="img/how-it-works-3.svg" alt="Delivery">
+        </div>
+        <div class="how-it-works-dots"></div>
+        <h3>Delivery</h3>
+        <p>Get your order in about an hour.
+          Real-time tracking is available. See when your order will arrive.</p>
+      </div>
+    </div>
+  </div>
+  <div class="how-it-works-background-layer revealator-fade revealator-duration4"><img src="img/background-layer-1.png" alt="Grandeur | Get restaurant dishes without leaving home"></div>
+</section>
+
+<section class="range">
+<div class="container">
+  <h2 class="revealator-fade revealator-duration4">What do you want</h2>
+  <div class="range-tabs revealator-fade revealator-duration4">
+    <input type="radio" name="one" checked="checked" id="tab1"/>
+    <label for="tab1">Breakfest</label>
+    <input type="radio" name="one" id="tab2"/>
+    <label for="tab2">Lunch</label>
+    <input type="radio" name="one" id="tab3"/>
+    <label for="tab3">Dinner</label>
+
+    <div class="range-tab-item">
+        <div class="range-item">
+            <div class="range-item-background"></div>
+            <h3>Grilled Steak<br>Tortilla Salad</h3>
+            <p>$30</p>
+        </div>
+
+        <div class="range-item">
+            <div class="range-item-background"></div>
+            <h3>Croissants with<br>chocolate filling</h3>
+            <p>$30</p>
+        </div>
+
+        <div class="range-item">
+            <div class="range-item-background"></div>
+            <h3>Pancakes with<br>apricot jam</h3>
+            <p>$30</p>
+        </div>
+
+        <div class="range-item">
+            <div class="range-item-background"></div>
+            <h3>Grilled Steak<br>Tortilla Salad</h3>
+            <p>$30</p>
+        </div>
+
+        <div class="range-item">
+            <div class="range-item-background"></div>
+            <h3>Croissants with<br>chocolate filling</h3>
+            <p>$30</p>
+        </div>
+
+        <div class="range-item">
+            <div class="range-item-background"></div>
+            <h3>Pancakes with<br>apricot jam</h3>
+            <p>$30</p>
+        </div>
+    </div>
+
+    <div class="range-tab-item">Tab2</div>
+
+    <div class="range-tab-item">Tab3</div>
+  </div>
+</div>
+  <div class="container revealator-fade revealator-duration4">
+      <div class="row justify-content-center">
+        <a class="button" href="#">See More</a>
+      </div>
+  </div>
+  <div class="range-background-layer"><img src="img/background-layer-2.png" alt="Grandeur | Get restaurant dishes without leaving home"></div>
+</section>
+
+<section class="new-dishes">
+  <div class="container">
+    <h2 class="revealator-fade revealator-duration4">New Dishes</h2>
+    <div class="new-dishes-slider">
+      <div class="single-item">
+        <div class="single-item-left revealator-fade revealator-duration4">
+            <img src="img/new-dishes-1.png" alt="New dishes | Grandeur">
+        </div>
+        <div class="single-item-right revealator-fade revealator-duration4">
+          <div class="single-item-content">
+            <h3>Redfish salad</h3>
+            <p>Here is the original idea for this dish to start off the week with a light and fresh meal. Adapted by a Daniel Boulud recipe.</p>
+              <p>Ingredients:</p>
+              <ul>
+                  <li>Olives</li>
+                  <li>Onion</li>
+                  <li>Red caviar</li>
+                  <li>Lettuce leaves</li>
+              </ul>
+              <br>
+              <a href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-item">
+        <div class="single-item-left">
+          <img src="img/new-dishes-1.png" alt="New dishes | Grandeur">
+        </div>
+          <div class="single-item-right">
+            <div class="single-item-content">
+              <h3>Delicious dish №2</h3>
+              <p>Here is the original idea for this dish to start off the week with a light and fresh meal. Adapted by a Daniel Boulud recipe.</p>
+                <p>Ingredients:</p>
+                <ul>
+                  <li>Olives</li>
+                  <li>Onion</li>
+                  <li>Red caviar</li>
+                  <li>Lettuce leaves</li>
+                </ul>
+                <br>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+
+      <div class="single-item">
+        <div class="single-item-left">
+        <img src="img/new-dishes-1.png" alt="New dishes | Grandeur">
+      </div>
+        <div class="single-item-right">
+          <div class="single-item-content">
+            <h3>Delicious dish №3</h3>
+            <p>Here is the original idea for this dish to start off the week with a light and fresh meal. Adapted by a Daniel Boulud recipe.</p>
+              <p>Ingredients:</p>
+              <ul>
+                  <li>Olives</li>
+                  <li>Onion</li>
+                  <li>Red caviar</li>
+                  <li>Lettuce leaves</li>
+              </ul>
+              <br>
+            <a href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-item">
+        <div class="single-item-left">
+          <img src="img/new-dishes-1.png" alt="New dishes | Grandeur">
+        </div>
+        <div class="single-item-right">
+          <div class="single-item-content">
+              <h3>Delicious dish №4</h3>
+              <p>Here is the original idea for this dish to start off the week with a light and fresh meal. Adapted by a Daniel Boulud recipe.</p>
+              <p>Ingredients:</p>
+              <ul>
+                  <li>Olives</li>
+                  <li>Onion</li>
+                  <li>Red caviar</li>
+                  <li>Lettuce leaves</li>
+              </ul>
+              <br>
+              <a href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-item">
+        <div class="single-item-left">
+          <img src="img/new-dishes-1.png" alt="New dishes | Grandeur">
+        </div>
+        <div class="single-item-right">
+          <div class="single-item-content">
+            <h3>Delicious dish №5</h3>
+            <p>Here is the original idea for this dish to start off the week with a light and fresh meal. Adapted by a Daniel Boulud recipe.</p>
+              <p>Ingredients:</p>
+              <ul>
+                  <li>Olives</li>
+                  <li>Onion</li>
+                  <li>Red caviar</li>
+                  <li>Lettuce leaves</li>
+              </ul>
+              <br>
+            <a href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="single-item">
+        <div class="single-item-left">
+          <img src="img/new-dishes-1.png" alt="New dishes | Grandeur">
+        </div>
+        <div class="single-item-right">
+          <div class="single-item-content">
+              <h3>Delicious dish №6</h3>
+              <p>Here is the original idea for this dish to start off the week with a light and fresh meal. Adapted by a Daniel Boulud recipe.</p>
+              <p>Ingredients:</p>
+              <ul>
+                  <li>Olives</li>
+                  <li>Onion</li>
+                  <li>Red caviar</li>
+                  <li>Lettuce leaves</li>
+              </ul>
+              <br>
+              <a href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="new-dishes-background-layer revealator-fade revealator-duration4"><img src="img/background-layer-3.png" alt="Grandeur | Get restaurant dishes without leaving home"></div>
+</section>
+
+<section class="subscribe">
+  <div class="container">
+    <div class="row align-items-center revealator-fade revealator-duration4">
+      <div class="col-xl-5 col-lg-5 col-md-12">
+        <h2>Subscribe Newsletter</h2>
+      </div>
+      <div class="col-xl-7 col-lg-7 col-md-12">
+        <form class="subscribe-box" action="#">
+          <input class="subscribe-box-input" type="email" placeholder="Enter Your Email Address">
+          <button class="button" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container menu-container revealator-fade revealator-duration4">
+    <nav>
+      <a href="#" class="logo">Grandeur</a>
+      <ul class="desktop-menu">
+        <li><a href="#menu-menu">Menu</a></li>
+        <li><a href="#menu-recipes">Recipes</a></li>
+        <li><a href="#menu-about">About us</a></li>
+        <li><a href="#menu-blog">Blog</a></li>
+        <li><a href="#menu-contact">Contact</a></li>
+      </ul>
+      <ul class="social">
+        <li><a href="https://www.facebook.com/splitdevelopment" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://twitter.com/splitdev_pro" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/splitdev_pro/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container revealator-fade revealator-duration4">
+    <div class="footer-bottom">
+      <div class="reserved col-md-8">© 2019 Split Development. All rights reserved</div>
+      <div class="footer-created col-md-4">
+        <span>Created by</span>
+        <img class="split-logo" src="img/logo-black-split.png" alt="SPLIT Development">
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+<!-- my script -->
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/preload.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/fm.revealator.jquery.js"></script>
+</body>
+</html>

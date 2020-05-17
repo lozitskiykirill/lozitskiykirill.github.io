@@ -1,0 +1,50 @@
+//@font-face {
+//  font-family:"Amiri-BoldSlanted";
+//  src:url("../font/Amiri-BoldSlanted.eot?") format("eot"),
+//  url("../font/Amiri-BoldSlanted.woff") format("woff"),
+//  url("../font/Amiri-BoldSlanted.ttf") format("truetype"),
+//  url("../font/Amiri-BoldSlanted.svg#Amiri-BoldSlanted") format("svg");
+//  font-weight:normal;
+//  font-style:normal;
+//}
+
+@font-face {
+  font-family:"Amiri-BoldSlanted";
+  src:url("../font/Amiri-BoldSlanted.eot?") format("eot"),
+  url("../font/Amiri-BoldSlanted.woff") format("woff"),
+  url("../font/Amiri-BoldSlanted.ttf") format("truetype"),
+  url("../font/Amiri-BoldSlanted.svg#Amiri-BoldSlanted") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:"Amiri-Regular";
+  src: url("../font/Amiri-Regular.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: 'Work-Sans', sans-serif;
+  src: url("../font/WorkSans-Regular.eot?") format("eot"),
+  url("../font/WorkSans-Regular.woff") format("woff"),
+  url("../font/WorkSans-Regular.ttf") format("truetype"),
+  url("../font/WorkSans-Regular.svg#WorkSans-Regular") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: 'Playfair-Display';
+  src: url("../font/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url("../font/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;
+}
