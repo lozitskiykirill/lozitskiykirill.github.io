@@ -66,6 +66,7 @@
         </span>
     </a>
 </div>
+
 <style>
     body{
         /*padding: 0;*/
@@ -75,13 +76,9 @@
     }
     .heading {
         position: fixed;
-        height: 375px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        top: 0;
+        height: 200px;
+        max-width: 100%;
+        top: 75px;
     }
     h1, h2, h3, h4 {
         color: white;
@@ -93,7 +90,7 @@
         flex-wrap: wrap;
         position: relative;
         max-width: 1200px;
-        margin: 375px auto 0 auto;
+        margin: 200px auto 0 auto;
     }
     .panels a {
         display: flex;
