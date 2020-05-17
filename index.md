@@ -1,12 +1,3 @@
-<head>
-<!--     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
-<!--     <title>Portfolio Lozitskiy Kirill</title> -->
-    <link href="styles/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
 <div class="heading">
     <h1>Portfolio</h1>
     <h3>Lozitsky Kirill</h3>
@@ -75,11 +66,10 @@
         </span>
     </a>
 </div>
-</body>
 <style>
     body{
-        padding: 0;
-        margin: 0;
+        /*padding: 0;*/
+        /*margin: 0;*/
         font-family: 'Poppins', sans-serif;
         background-color: rgba(0, 30, 65, 0.75);
     }
@@ -94,7 +84,7 @@
         top: 0;
     }
     h1, h2, h3, h4 {
-        color: aliceblue;
+        color: white;
     }
     .panels {
         display: flex;
@@ -105,7 +95,7 @@
         max-width: 1200px;
         margin: 375px auto 0 auto;
     }
-    a {
+    .panels a {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -123,27 +113,27 @@
         background-color: white;
     }
     @media (max-width: 1200px) {
-        a {
+        .panels a {
             height: 250px;
         }
     }
     @media (max-width: 991px) {
-        a {
+        .panels a {
             height: 200px;
         }
     }
     @media (max-width: 767px) {
-        a {
+        .panels a {
             width: 100%;
             height: 300px;
         }
     }
     @media (max-width: 575px) {
-        a {
+        .panels a {
             height: 230px;
         }
     }
-    a:before {
+    .panels a:before {
         content: "";
         position: absolute;
         top: 0;
@@ -154,14 +144,14 @@
         z-index: 5;
         transition: 0.3s;
     }
-    a:hover {
+    .panels a:hover {
         background-size: 135%;
         text-decoration: none;
     }
-    a:hover:before {
+    .panels a:hover:before {
         background-color: rgba(0, 30, 65, 0.35);
     }
-    a span {
+    .panels a span {
         color: rgba(0, 30, 65, 0.75);
         z-index: 10;
         padding: 10px 35px;
