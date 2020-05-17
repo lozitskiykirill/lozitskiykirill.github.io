@@ -1,132 +1,179 @@
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <title>Edifice Homes</title>
-  
-<link href="./styles/main.css" rel="stylesheet"></head>
-<body class="home">
 
-<section class="top-hero">
-    <div class="top-hero__green-image" style="background-image: url('images/top-hero-home.jpg')">
-        <div class="top-hero__mask"></div>
-        <header class="header">
-            <div class="container-big header__container">
-                <div class="header__logo">
-                    <a href="index.html">Edifice<br>Homes</a>
-                </div>
-                <div class="header__menu">
-                    <ul>
-                        <li>
-                            <a href="landlord.html">For landlords</a>
-                        </li>
-                        <li>
-                            <a href="about.html">About us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="header__mobile">
-                    <img src="images/menu-burger.svg" alt="menu" id="menu-burger">
-                </div>
-                <div class="header__mobile-menu">
-                    <ul>
-                        <li>
-                            <a href="landlord.html">For landlords</a>
-                        </li>
-                        <li>
-                            <a href="about.html">About us</a>
-                        </li>
-                    </ul>
-                    <img src="images/close-button.svg" alt="menu" class="header__close-menu">
-                </div>
-            </div>
-        </header>
-        <div class="top-hero__heading-form">
-            <div class="top-hero__heading container-big">
-                <h1>Book a stay now.</h1>
-            </div>
-            <div class="top-hero__form container-big">
-                <form action="#">
-                    <select class="top-hero__select turnintodropdown">
-                        <option>San Diego</option>
-                        <option>New York</option>
-                        <option>Atlanta</option>
-                        <option>San Francisco</option>
-                    </select>
-                    <div class="top-hero__check-in">
-                        <input class="top-hero__check-in__input" id="datepicker" name="datepicker" type="text" placeholder="Check-in">
-                    </div>
-                    <div class="top-hero__check-out">
-                        <input placeholder="Check out" id="datepicker-check-out" name="datepicker">
-                    </div>
-                    <div class="top-hero__submit-button">
-                        <button>
-                            <img src="images/search.svg" alt="search">
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="top-descr">
-    <div class="container-small top-descr__container">
-        <div class="top-descr__column">
-            <h3>Top quality homes</h3>
-            <p>Our homes are beautiful properties that we inspect for comfort.</p>
-        </div>
-        <div class="top-descr__column">
-            <h3>Premium Locations</h3>
-            <p>Located in the hearts of our destinations close to local attractions and city center.</p>
-        </div>
-        <div class="top-descr__column">
-            <h3>Comfortable furniture and and amenities</h3>
-            <p>With tasteful interiors designed by our team and equipped with every the traveler’s comfort in mind. </p>
-        </div>
-    </div>
-</section>
-<section class="landlord">
-    <div class="landlord__left container-big">
-        <div class="landlord__content">
-            <h2>Are you a landlord?</h2>
-            <p>Sign a lease with Edifice and get paid every month on time, for 1-3 years, automatically.</p>
-            <h3>Guaranteed rent, every month</h3>
-            <p>Guaranteed rent, every month</p>
-            <h3>Quality care of your homes</h3>
-            <p>We maintain and upgrade your home to be better than before.</p>
-            <h3>First class residents</h3>
-            <p>All our residents are vetted.</p>
-            <a class="offer-button" href="landlord.html">Get an offer</a>
-        </div>
-    </div>
-    <div class="landlord__right" style="background-image: url('images/ladnlord-image.jpg')"></div>
-</section>
-<footer class="footer">
-    <div class="container-big footer__container">
-        <div class="footer__contact">
-            <h3>Beautiful homes, reasonably priced.</h3>
-            <h3>Call Now</h3>
-            <a href="tel: 1235690123">(123) 569-0123</a>
-            <h3>Email us</h3>
-            <a href="mailto:hello@edificehomes.com">hello@edificehomes.com</a>
-        </div>
-        <div class="footer__menu">
-            <ul>
-                <li>
-                    <a href="landlord.html">For landlords</a>
-                </li>
-                <li>
-                    <a href="about.html">About us</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="container-big footer-bottom__container">
-        <a class="footer__logo" href="index.html">Edifice Homes</a>
-        <p class="footer__copyright">Copyright Edifice Holdings, Inc. 2020</p>
-    </div>
-</footer>
-<script type="text/javascript" src="./scripts/main.js"></script></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Lozitskiy Kirill</title>
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="heading">
+    <h1>Portfolio</h1>
+    <h3>Lozitsky Kirill</h3>
+    <h4>Junior Frontend Developer</h4>
+</div>
+<div class="panels">
+    <a class="item" href="Apple-Fixit/index.html" style="background-image: url('apple-fixit.jpg')">
+        <span>
+            Apple Fixit
+        </span>
+    </a>
+    <a class="item" href="Grandeur/index.html" style="background-image: url('grandeur.jpg')">
+        <span>
+            Grandeur
+        </span>
+    </a>
+    <a class="item" href="Edifice/index.html" style="background-image: url('edifice.jpg')">
+        <span>
+            Edifice Homes
+        </span>
+    </a>
+    <a class="item" href="Swell/index.html" style="background-image: url('swell.jpg')">
+        <span>
+            Swell
+        </span>
+    </a>
+    <a class="item" href="Colebil/index.html" style="background-image: url('colebil.jpg')">
+        <span>
+            Colebil
+        </span>
+    </a>
+    <a class="item" href="Doterra/index.html" style="background-image: url('doterra.jpg')">
+        <span>
+            Doterra
+        </span>
+    </a>
+
+    <a class="item" href="FeedbackShots/index.html" style="background-image: url('feedback.jpg')">
+        <span>
+            FeedbackShots
+        </span>
+    </a>
+    <a class="item" href="Giant/index.html" style="background-image: url('giant.jpg')">
+        <span>
+            Giant
+        </span>
+    </a>
+    <a class="item" href="Split/index.html" style="background-image: url('split.jpg')">
+        <span>
+            Split
+        </span>
+    </a>
+    <a class="item" href="AdBot/index.html" style="background-image: url('adbot.jpg')">
+        <span>
+            AdBot
+        </span>
+    </a>
+    <a class="item" href="Meningita/index.html" style="background-image: url('meningita.jpg')">
+        <span>
+            Meningita
+        </span>
+    </a>
+    <a class="item" href="Triferment/index.html" style="background-image: url('triferment.jpg')">
+        <span>
+            Triferment
+        </span>
+    </a>
+</div>
+</body>
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgba(0, 30, 65, 0.75);
+    }
+    .heading {
+        position: fixed;
+        height: 375px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        top: 0;
+    }
+    h1, h2, h3, h4 {
+        color: aliceblue;
+    }
+    .panels {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;
+        max-width: 1200px;
+        margin: 375px auto 0 auto;
+    }
+    a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 300px;
+        background-size: 130%;
+        background-position: center;
+        border: 2px solid white;
+        transition: 0.4s;
+        box-sizing: border-box;
+        position: relative;
+        text-decoration: none;
+        background-repeat: no-repeat;
+        background-color: white;
+    }
+    @media (max-width: 1200px) {
+        a {
+            height: 250px;
+        }
+    }
+    @media (max-width: 991px) {
+        a {
+            height: 200px;
+        }
+    }
+    @media (max-width: 767px) {
+        a {
+            width: 100%;
+            height: 300px;
+        }
+    }
+    @media (max-width: 575px) {
+        a {
+            height: 230px;
+        }
+    }
+    a:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 30, 65, 0.25);
+        z-index: 5;
+        transition: 0.3s;
+    }
+    a:hover {
+        background-size: 135%;
+        text-decoration: none;
+    }
+    a:hover:before {
+        background-color: rgba(0, 30, 65, 0.35);
+    }
+    a span {
+        color: rgba(0, 30, 65, 0.75);
+        z-index: 10;
+        padding: 10px 35px;
+        min-width: 200px;
+        text-decoration: none;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+</style>
 </html>
