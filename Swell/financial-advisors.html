@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+<link href="styles/main.css" rel="stylesheet"></head>
+<body class="financial-advisors">
+  <div class="header">
+      <div class="header__container">
+          <div class="header__left">
+              <div class="header__logo">
+                  <a href="index-2.html">
+                      <img src="images/Logo/logo.svg" alt="Swell">
+                  </a>
+              </div>
+              <nav>
+                  <ul>
+                      <li>
+                          <a href="direct-investor.html">For Investors</a>
+                      </li>
+                      <li>
+                          <a href="financial-advisors.html">For Financial Advisors</a>
+                      </li>
+                  </ul>
+              </nav>
+          </div>
+          <div class="header__right">
+              <div class="header__login" id="login-popup">
+                  <svg class="img-svg" xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"><g><g><path d="M12.325 6.353a.587.587 0 0 0-.514.411c-.069.228.01.473.2.62l4.362 3.537H1.12a.59.59 0 0 0-.465.189.571.571 0 0 0 .04.819.596.596 0 0 0 .425.15h15.254l-4.362 3.528a.57.57 0 0 0-.101.829.6.6 0 0 0 .849.067l5.634-4.56a.573.573 0 0 0 0-.895l-5.635-4.56a.596.596 0 0 0-.434-.135zM15.248.5C10.071.5 5.704 3.924 4.402 8.596a.576.576 0 0 0 .415.715c.152.04.314.02.45-.056a.585.585 0 0 0 .279-.351c1.163-4.176 5.056-7.246 9.702-7.246 5.566 0 10.071 4.399 10.071 9.842 0 5.443-4.505 9.842-10.07 9.842-4.647 0-8.54-3.08-9.703-7.255a.585.585 0 0 0-.278-.351.607.607 0 0 0-.45-.056.576.576 0 0 0-.415.715c1.3 4.672 5.668 8.105 10.845 8.105 6.201 0 11.252-4.929 11.252-11 0-6.07-5.05-11-11.252-11z"/></g></g></svg>
+                  <span>Client Login</span>
+              </div>
+              <div class="header__enquire">
+                  <a class="button button__light-blue" href="contact.html">Enquire</a>
+              </div>
+              <div class="header__burger" id="openTopNav">
+                  <svg class="header__burger-svg" xmlns="http://www.w3.org/2000/svg" width="23" height="14" viewBox="0 0 23 14"><g><g><path d="M.903 2h21.194c.5 0 .903-.447.903-1 0-.553-.403-1-.903-1L.903.001c-.5 0-.903.447-.903 1C0 1.551.405 2 .903 2z"/></g><g><path d="M.903 8h21.194c.5 0 .903-.447.903-1 0-.553-.403-1-.903-1H.903C.403 6 0 6.447 0 7c0 .553.405 1 .903 1z"/></g><g><path d="M.903 14h21.194c.5 0 .903-.447.903-1 0-.553-.403-1-.903-1l-21.194.001c-.5 0-.903.447-.903 1 0 .552.405.999.903.999z" style="&#10;;&#10;"/></g></g></svg>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="top-nav" style="background-image: url('images/top-nav-mask.png')">
+      <div class="top-nav__container container">
+          <div class="top-nav__left">
+              <nav>
+                  <ul>
+                      <li>
+                          <a href="why-swell.html">Why Swell?</a>
+                      </li>
+                      <li>
+                          <a href="performance.html">Performance</a>
+                      </li>
+                      <li>
+                          <a href="resources.html">Resources</a>
+                      </li>
+                      <li>
+                          <a href="blog.html">News</a>
+                      </li>
+                      <li>
+                          <a href="contact.html">Contact</a>
+                      </li>
+                  </ul>
+                  <div class="top-nav__login" id="top-nav-login-popup">
+                      <img src="images/common/login-white.svg" alt="">
+                      <span>Client Login</span>
+                  </div>
+              </nav>
+              <div class="top-nav__copyright">
+                  <p>© 2019 Swell Asset Management</p>
+              </div>
+          </div>
+          <div class="top-nav__right">
+              <div class="panels">
+                  <div class="container">
+                      <div class="panels__container">
+                              <div class="panels__item panels__orange" style="background-image: url('images/manager.jpg')">
+                                  <div class="panels__top">
+                                      <h3>Chart a course with a manager you can
+                                        <span>trust</span>.
+                                      </h3>
+                                  </div>
+                                  <div class="panels__bottom">
+                                        <a class="button button__orange button__arrow" href="#">Find out more</a>
+                                  </div>
+                              </div>
+                              <div class="panels__item panels__blue" style="background-image: url('images/performance.jpg')">
+                                  <div class="panels__top">
+                                      <h3>Deliver superior performance for your
+                                        <span>clients</span>.
+                                      </h3>
+                                  </div>
+                                  <div class="panels__bottom">
+                                        <a class="button button__blue button__arrow" href="#">Find out more</a>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="top-nav__close" id="closeTopNav">
+          <img src="images/top-nav-close.svg">
+      </div>
+  </div>
+  <div class="popup-login">
+      <div class="popup-login__block">
+          <div class="popup-login__lock">
+              <i class="icon-np_lock"></i>
+          </div>
+          <div class="popup-login__inner">
+              <h3>Login to access Resources</h3>
+              <form>
+                  <div class="popup-login__fileds">
+                      <input placeholder="Enter email address" type="text">
+                      <input placeholder="Enter password" type="text">
+                  </div>
+                  <button type="submit" class="button button__orange" id="submit-login">Login</button>
+              </form>
+              <a class="popup-login__register button button__grey" href="#" id="register-popup">Register</a>
+              <a class="popup-login__lost-password" href="#">Lost your password?</a>
+          </div>
+      </div>
+  </div>
+  <div class="popup-register">
+      <div class="popup-register__block">
+          <div class="popup-login__lock">
+              <i class="icon-np_lock"></i>
+          </div>
+          <div class="popup-register__inner">
+              <h3>Register an account</h3>
+              <form>
+                  <div class="popup-register__fields">
+                      <input placeholder="First Name" type="text">
+                      <input placeholder="Last Name" type="text">
+                      <input placeholder="Investor Type" type="select">
+                      <input placeholder="Company" type="text">
+                      <input placeholder="Email Address" type="text">
+                      <input placeholder="Set Password" type="text">
+                  </div>
+                  <button type="submit" class="button button__orange" id="submit-register">Register</button>
+              </form>
+              <a class="popup-register__register button button__grey" href="#">Already have an account?</a>
+              <a class="popup-register__lost-password" href="#">Lost your password?</a>
+          </div>
+      </div>
+  </div>
+  <div class="background-blue-advisors">
+        <div class="top-intro">
+            <div class="row">
+                <div class="top-intro__title-img" style="background-image: url('images/financial-advisors/first-block.jpg')"></div>
+                <div class="top-intro__title">
+                    <h1>Financial Advisors</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a class="button button__orange button__arrow" href="#">Invest now</a>
+                    <div class="top-intro__title-arrow">
+                        <img src="images/financial-advisors/arrow-title.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="container">
+          <div class="advantages">
+              <div class="advantages__text">
+                  <h3>What can Swell do for Financial Advisors?</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+              <div class="advantages__box">
+                    <div class="advantages__box-item">
+                        <img src="images/financial-advisors/money.svg" alt="">
+                        <span>Low $25,000 min</span>
+                    </div>
+                    <div class="advantages__box-item">
+                        <img src="images/financial-advisors/hands.svg" alt="">
+                        <span>Long-term Partnerships</span>
+                    </div>
+                    <div class="advantages__box-item">
+                        <img src="images/financial-advisors/graphic.svg" alt="">
+                        <span>Consistency &amp; Scalability</span>
+                    </div>
+              </div>
+          </div>
+      </div>
+        <div class="methods">
+            <div class="container">
+                    <div class="methods__item flex-row-reverse">
+                        <div class="methods__img">
+                            <img src="images/financial-advisors/method1.jpg" alt="">
+                        </div>
+                        <div class="methods__desc">
+                            <h3>Investment Strategy</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="methods__item ">
+                        <div class="methods__img">
+                            <img src="images/financial-advisors/method2.jpg" alt="">
+                        </div>
+                        <div class="methods__desc">
+                            <h3>Stock Selection</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="clients">
+            <div class="container">
+                <div class="clients__desc">
+                    <h3>All cients use the same portfolio </h3>
+                    <p>Investor funds are held within separately managed accounts with each client holding identical investments to the Swell Global Portfolio. Every investor retains beneficial ownership of the shares in their own name.</p>
+                </div>
+            </div>
+            <div class="clients__logos">
+                <img src="images/financial-advisors/clients.png" alt="">
+            </div>
+        </div>
+  </div>
+    <div class="performance">
+        <div class="container">
+            <div class="graphic">
+                <div class="graphic__text">
+                      <h3>Performance chart</h3>
+                      <p>Investor funds are held within separately managed accounts with each client holding identical investments to the Swell Global Portfolio. Every investor retains beneficial ownership of the shares in their own name.</p>
+                </div>
+                <div class="graphic__graphic">
+                    <img src="images/financial-advisors/big-graphic.png" alt="Swell graphic">
+                </div>
+            </div>
+        </div>
+      <div class="container table-box">
+          <div class="table-box__performance-text">
+              <h3>30 November 2019</h3>
+              <p>Net of management fee</p>
+          </div>
+          <div class="table-box__form">
+              <div class="table-box__form-title">
+                    <div class="table-box__form-title-box"><span>Performance AUD</span></div>
+                    <div class="table-box__form-title-box"><span>1 Month</span></div>
+                    <div class="table-box__form-title-box"><span>3 Month</span></div>
+                    <div class="table-box__form-title-box"><span>6 Month</span></div>
+                    <div class="table-box__form-title-box"><span>1 Year</span></div>
+                    <div class="table-box__form-title-box"><span>2 Years<br>(p.a.)</span></div>
+                    <div class="table-box__form-title-box"><span>3 Years<br>(p.a.)</span></div>
+                    <div class="table-box__form-title-box"><span>4 Years<br>(p.a.)</span></div>
+                    <div class="table-box__form-title-box"><span>Inception<br>(18 June 15)</span></div>
+              </div>
+              <div class="table-box__form-first">
+                  <div class="table-box__form-row-1"><span>Swell Global Portfolio</span></div>
+                    <div class="table-box__form-box"><span>5.20%</span></div>
+                    <div class="table-box__form-box"><span>4.94%</span></div>
+                    <div class="table-box__form-box"><span>16.12%</span></div>
+                    <div class="table-box__form-box"><span>29.20%</span></div>
+                    <div class="table-box__form-box"><span>18.21%</span></div>
+                    <div class="table-box__form-box"><span>19.78%</span></div>
+                    <div class="table-box__form-box"><span>17.11%</span></div>
+                    <div class="table-box__form-box"><span>101.09%</span></div>
+              </div>
+              <div class="table-box__form-second">
+                  <div class="table-box__form-row-1"><span>MSCI World Net TR Index</span></div>
+                    <div class="table-box__form-box"><span>5.20%</span></div>
+                    <div class="table-box__form-box"><span>4.94%</span></div>
+                    <div class="table-box__form-box"><span>16.12%</span></div>
+                    <div class="table-box__form-box"><span>29.20%</span></div>
+                    <div class="table-box__form-box"><span>18.21%</span></div>
+                    <div class="table-box__form-box"><span>19.78%</span></div>
+                    <div class="table-box__form-box"><span>17.11%</span></div>
+                    <div class="table-box__form-box"><span>101.09%</span></div>
+              </div>
+              <div class="table-box__form-third">
+                  <div class="table-box__form-row-1"><span>Outperformance</span></div>
+                    <div class="table-box__form-box"><span>5.20%</span></div>
+                    <div class="table-box__form-box"><span>4.94%</span></div>
+                    <div class="table-box__form-box"><span>16.12%</span></div>
+                    <div class="table-box__form-box"><span>29.20%</span></div>
+                    <div class="table-box__form-box"><span>18.21%</span></div>
+                    <div class="table-box__form-box"><span>19.78%</span></div>
+                    <div class="table-box__form-box"><span>17.11%</span></div>
+                    <div class="table-box__form-box"><span>101.09%</span></div>
+              </div>
+          </div>
+      </div>
+    </div>
+        <div class="text-button-img container">
+            <div class="text-button-img__text">
+                <h3>Financial Advisor Process</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                <a class="button button__light-blue" href="#">View Platform</a>
+            </div>
+            <div class="text-button-img__img">
+                <img src="images/financial-advisors/process.jpg" alt="">
+            </div>
+        </div>
+    <div class="container">
+        <div class="step">
+                <div class="step__box">
+                    <strong>Step 1</strong>
+                    <p>Investor funds are held within separately managed accounts with each client holding identical investments to the Swell Global Portfolio. Every investor retains beneficial ownership of the shares in their own name.</p>
+                </div>
+                <div class="step__box">
+                    <strong>Step 2</strong>
+                    <p>Investor funds are held within separately managed accounts with each client holding identical investments to the Swell Global Portfolio. Every investor retains beneficial ownership of the shares in their own name.</p>
+                </div>
+                <div class="step__box">
+                    <strong>Step 3</strong>
+                    <p>Investor funds are held within separately managed accounts with each client holding identical investments to the Swell Global Portfolio. Every investor retains beneficial ownership of the shares in their own name.</p>
+                </div>
+                <div class="step__box">
+                    <strong>Step 4</strong>
+                    <p>Investor funds are held within separately managed accounts with each client holding identical investments to the Swell Global Portfolio. Every investor retains beneficial ownership of the shares in their own name.</p>
+                </div>
+        </div>
+    </div>
+    <div class="tiles">
+        <div class="container">
+            <div class="tiles__title">
+                    <div class="title-button">
+                        <h3>Monthly Updates</h3>
+                        <a class="button button__light-blue" href="#">View more updates</a>
+                    </div>
+                    
+            </div>
+            <div class="tiles__resource-box">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                      <div class="resource-tile">
+                        <div class="resource-tile__header">
+                          <div class="resource-tile__header-content">
+                            <h4>Download White Paper Title 1</h4>
+                          </div>
+                        </div>
+                        <div class="resource-tile__main">
+                          <div class="resource-tile__description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                          </div>
+                          <div class="resource-tile__link-box">
+                            <a href="#" class="icon-np_download">
+                              Download
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                      <div class="resource-tile">
+                        <div class="resource-tile__header">
+                          <div class="resource-tile__header-content">
+                            <h4>Download White Paper Title 1</h4>
+                          </div>
+                        </div>
+                        <div class="resource-tile__main">
+                          <div class="resource-tile__description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                          </div>
+                          <div class="resource-tile__link-box">
+                            <a href="#" class="icon-np_download">
+                              Download
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                      <div class="resource-tile">
+                        <div class="resource-tile__header">
+                          <div class="resource-tile__header-content">
+                            <h4>Download White Paper Title 1</h4>
+                          </div>
+                        </div>
+                        <div class="resource-tile__main">
+                          <div class="resource-tile__description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                          </div>
+                          <div class="resource-tile__link-box">
+                            <a href="#" class="icon-np_download">
+                              Download
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-xl-3">
+                      <div class="resource-tile">
+                        <div class="resource-tile__header">
+                          <div class="resource-tile__header-content">
+                            <h4>Download White Paper Title 1</h4>
+                          </div>
+                        </div>
+                        <div class="resource-tile__main">
+                          <div class="resource-tile__description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                          </div>
+                          <div class="resource-tile__link-box">
+                            <a href="#" class="icon-np_download">
+                              Download
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tiles__title">
+                    <div class="title-button">
+                        <h3>Related Articles</h3>
+                        <a class="button button__light-blue" href="#">View more updates</a>
+                    </div>
+                    
+            </div>
+            <div class="tiles__blog-box">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <a href="#" class="blog-tile">
+                          <div class="blog-tile__main">
+                            <div class="blog-tile__description">
+                              <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                              <p>Tuesday 21 November 2019 </p>
+                            </div>
+                          </div>
+                          <div class="blog-tile__link-box">
+                            <span class="blog-tile__link icon-np_next-arrow">
+                              Stock Updates
+                            </span>
+                          </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <a href="#" class="blog-tile">
+                          <div class="blog-tile__main">
+                            <div class="blog-tile__description">
+                              <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                              <p>Tuesday 21 November 2019 </p>
+                            </div>
+                          </div>
+                          <div class="blog-tile__link-box">
+                            <span class="blog-tile__link icon-np_next-arrow">
+                              Stock Updates
+                            </span>
+                          </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <a href="#" class="blog-tile">
+                          <div class="blog-tile__main">
+                              <div class="blog-tile__main-content">
+                                <img src="images/news.png" alt="">
+                              </div>
+                            <div class="blog-tile__description">
+                              <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                              <p>Tuesday 21 November 2019 </p>
+                            </div>
+                          </div>
+                          <div class="blog-tile__link-box">
+                            <span class="blog-tile__link icon-np_next-arrow">
+                              Stock Updates
+                            </span>
+                          </div>
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="prominent-bgc">
+            <div class="prominent">
+                <h2>Schedule a Consultation</h2>
+                <p class="prominent__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="prominent__button">
+                    <a href="#" class="button button__orange button__arrow">
+                      Schedule a Consultation
+                    </a>
+                </div>
+                <div class="prominent__footer">
+                    <p>Need to find out more about Financial Advisors?</p>
+                    <a href="#" class="icon-np_next-arrow">Go here</a>
+                </div>
+            </div>
+    </div>
+<div class="subscribe-box">
+    <div class="container">
+        <div class="subscribe-box__top">
+            <h2>Subscribe to Swell</h2>
+            <p>Sign-up to our newsletter to get all the news & updates on market and portfolio updates</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="subscribe-box__bottom">
+            <input placeholder="First Name" type="text">
+            <input placeholder="Last Name" type="text">
+            <input placeholder="Email address" type="text">
+            <button type="submit" class="button button__orange">Subscribe</button>
+        </div>
+    </div>
+</div>
+<div class="footer-cta" style="background-image: url('images/footer-background-mobile.png'); @media (min-width: 1440px) {background-image: url('images/footer-background.png');}">
+    <div class="footer-cta__inner">
+        <div class="footer-cta__top" style="background-image: url('images/footer-top.png')">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-md-2 offset-lg-3 col-md-6">
+                        <h2>Chart a course with a manager you can trust.</h2>
+                    </div>
+                    <div class="col-md-3">
+                        <a class="button button__white" href="#">Invest now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-cta__bottom container">
+            <div class="row">
+                <div class="offset-md-2 offset-lg-4 col-lg-3 col-md-4 footer-cta__company">
+                    <a href="index-2.html">
+                        <img src="images/Logo/logo.svg" alt="Swell">
+                    </a>
+                    <p>Swell Asset Management is an authorised representative of Hughes Funds Management </p>
+                </div>
+                <div class="col-md-2 footer-cta__menu">
+                    <h3>Swell</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Why Swell?</a>
+                        </li>
+                        <li>
+                            <a href="#">Performance</a>
+                        </li>
+                        <li>
+                            <a href="#">Resources</a>
+                        </li>
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-lg-4 footer-cta__category">
+                    <a href="#">For Investors</a>
+                    <a href="#">For Financial Advisors</a>
+                </div>
+            </div>
+            <div class="row footer-cta__social">
+                <div class="offset-md-2 offset-lg-4 col-md-8">
+                    <a href="index-2.html">
+                        <i class="icon-facebook"></i>
+                    </a>
+                    <a href="index-2.html">
+                        <i class="icon-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row footer-cta__copyright">
+                <div class="offset-md-2 offset-lg-4 col-md-8">
+                    <p>© 2019 Swell Asset Management</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="scripts/main.js"></script></body>
+
+</html>
