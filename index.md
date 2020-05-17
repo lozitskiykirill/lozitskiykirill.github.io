@@ -25,7 +25,7 @@
         </span>
     </a>
    
-    <a class="item" href="Doterra/index.html" style="background-image: url('doterra.jpg')">
+    <a class="item" href="Doterra/sitemap.html" style="background-image: url('doterra.jpg')">
         <span>
             Doterra
         </span>
