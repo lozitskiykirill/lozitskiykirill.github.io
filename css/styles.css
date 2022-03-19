@@ -11297,6 +11297,10 @@ html {
   padding-bottom: 7.5rem;
 }
 
+.content-section-heading {
+    margin-top: 30px
+}
+
 .content-section-heading h2, .content-section-heading .h2 {
   font-size: 3rem;
 }
@@ -11433,12 +11437,14 @@ html {
   max-width: 30rem;
 }
 .callout .btn {
-    margin-right: 10px;
+    margin-right: 10px;;
     margin-left: 10px
 }
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+    background: linear-gradient(0deg, rgba(21,93,116,1) 0%, rgba(29,128,159,1) 100%);
+    color: #fff;
 }
 footer.footer .social-link {
   display: block;
@@ -11450,12 +11456,16 @@ footer.footer .social-link {
   background-color: #1D809F;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    color: #fff
 }
 footer.footer .social-link:hover {
   background-color: #155d74;
   text-decoration: none;
 }
 
+footer.footer .text-muted {
+    color: #fff !important;
+}
 .map {
   height: 30rem;
 }
