@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="203px" viewBox="0 0 102 203" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>4 Passive</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-Repair" transform="translate(-1159.000000, -1699.000000)" stroke-width="0.5">
+            <g id="Group-8" transform="translate(120.000000, 768.000000)">
+                <g id="Group-10">
+                    <g id="Group-21-Copy-7" transform="translate(980.000000, 822.000000)">
+                        <g id="iPhone-8-Plus" transform="translate(52.000000, 109.000000)">
+                            <g id="Group-11">
+                                <g id="4-Passive" transform="translate(7.000000, 0.000000)">
+                                    <g id="Body">
+                                        <rect id="Outside" stroke="#333333" x="1.09555036" y="0.25" width="99.0635546" height="201.586535" rx="13.5288057"></rect>
+                                        <rect id="Inside" stroke="#CCCCCC" x="2.36387589" y="1.51832554" width="96.5269035" height="199.049884" rx="12.6832554"></rect>
+                                        <path d="M100.447717,38.9339288 L100.447717,51.9627346 L100.620493,51.9627346 C100.83266,51.9627346 101.004655,51.790739 101.004655,51.5785718 L101.004655,39.3180916 C101.004655,39.1059244 100.83266,38.9339288 100.620493,38.9339288 L100.447717,38.9339288 Z" id="Botton-4" stroke="#333333"></path>
+                                        <path d="M0.806937946,57.4993856 L0.806937946,49.9993856 L0.634162768,49.9993856 C0.42199553,49.9993856 0.25,50.1713812 0.25,50.3835484 L0.25,57.1152229 C0.25,57.3273901 0.42199553,57.4993856 0.634162768,57.4993856 L0.806937946,57.4993856 Z" id="Botton-3" stroke="#333333"></path>
+                                        <path d="M0.806937946,46.4339288 L0.806937946,38.9339288 L0.634162768,38.9339288 C0.42199553,38.9339288 0.25,39.1059244 0.25,39.3180916 L0.25,46.0497661 C0.25,46.2619333 0.42199553,46.4339288 0.634162768,46.4339288 L0.806937946,46.4339288 Z" id="Botton-2" stroke="#333333"></path>
+                                        <path d="M0.806937946,31.2467508 L0.806937946,24.1367976 L0.634162768,24.1367976 C0.42199553,24.1367976 0.25,24.3087931 0.25,24.5209604 L0.25,30.862588 C0.25,31.0747553 0.42199553,31.2467508 0.634162768,31.2467508 L0.806937946,31.2467508 Z" id="Botton-1" stroke="#333333"></path>
+                                    </g>
+                                    <g id="Accessories-" transform="translate(31.708138, 5.918853)">
+                                        <circle id="Sensor" stroke="#CCCCCC" cx="18.9191892" cy="0.951244152" r="1"></circle>
+                                        <g id="Camera" transform="translate(0.000000, 4.861915)" stroke="#CCCCCC">
+                                            <circle id="Outside" cx="1.69110071" cy="1.69110071" r="1.44110071"></circle>
+                                            <circle id="Inside" cx="1.69110071" cy="1.69110071" r="1"></circle>
+                                        </g>
+                                        <rect id="Speaker" stroke="#CCCCCC" x="9.97382911" y="5.95746491" width="17.8907203" height="1.19110071" rx="0.595550357"></rect>
+                                        <g id="Botton" transform="translate(12.049093, 176.297249)">
+                                            <circle id="Outside" stroke="#333333" cx="7.08148424" cy="7.08148424" r="6.83148424"></circle>
+                                            <circle id="Inside" stroke="#CCCCCC" cx="7.08148424" cy="7.08148424" r="5.98593388"></circle>
+                                        </g>
+                                    </g>
+                                    <rect id="Screen_414x736" stroke="#333333" fill="#E3E3E3" x="7.22579045" y="23.5026348" width="87.014462" height="155.081266"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

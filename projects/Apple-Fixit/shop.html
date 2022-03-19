@@ -1,0 +1,429 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Apple Fixit</title>
+  
+  <!--<meta name="description" content="">
+  <meta name="robots" content="index,follow" />
+  <meta name="keywords" content="" />
+  <meta property="og:image" content=""/>
+  <meta property="og:image:width" content="" />
+  <meta property="og:image:height" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Name project"/>
+  <meta property="og:description" content="" />
+  <meta property="og:url" content=""/>
+  <meta property="og:site_name" content="Name project"/>
+  <meta name="twitter:card" content="summary" />
+  <meta name="theme-color" content="" />
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="">
+  <link rel="icon" type="image/png" sizes="32x32" href="">
+  <link rel="icon" type="image/png" sizes="16x16" href="">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="">
+  <meta name="msapplication-TileColor" content="">-->
+  
+<link href="./styles/main.css" rel="stylesheet"></head>
+<body class="shop">
+<header class="header">
+<!--    just test phraze-->
+    <div class="container header__container">
+        <nav>
+            <a class="header__logo" href="index.html">
+                <img src="images/logo.svg" alt="Logo Apple Fixit">
+                <span class="header__logo-apple">Apple</span>
+                <span class="header__logo-fixit">Fixit</span>
+            </a>
+            <ul class="header__menu">
+                    <li>
+                        <a href="repair.html" class="">Ремонт</a>
+                    </li>
+                    <li>
+                        <a href="shop.html" class="header__menu__current">Магазин</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="">Контакты</a>
+                    </li>
+            </ul>
+            <div class="header__buttons">
+                <a class="header__instagram" href="https://www.instagram.com/apple.fixit/">
+                    <img src="images/instagram-blue.svg" alt="Instagram">
+                </a>
+                <a class="header__call" id="callPopupHeader" href="#">
+                    <span>Перезвоните мне</span>
+                    <div class="header__call-icon">
+                        <img src="images/call-blue-top.svg" alt="call">
+                    </div>
+                </a>
+            </div>
+            <img src="images/burger-menu.svg" class="header__hamburger" id="hamburger" alt="open">
+            <div class="header__mobile">
+                <img src="images/close.svg" alt="close" class="header__close">
+                <ul class="header__mobile-menu">
+                      <li>
+                          <a href="repair.html" class="">Ремонт</a>
+                      </li>
+                      <li>
+                          <a href="shop.html" class="header__menu__current">Магазин</a>
+                      </li>
+                      <li>
+                          <a href="contact.html" class="">Контакты</a>
+                      </li>
+                </ul>
+                <div class="header__buttons-mobile">
+                    <a class="header__instagram" href="https://www.instagram.com/apple.fixit/" target="_blank">
+                        <img src="images/instagram-blue.svg" alt="Instagram">
+                    </a>
+                    <a class="header__call" id="callPopupMobile"" href="#">
+                        <span>Перезвоните мне</span>
+                        <div class="header__call-icon">
+                            <img src="images/call-blue-top.svg" alt="call">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<div class="popup popup-call">
+    <div class="popup__block">
+        <div class="popup__inner">
+            <h2>Перезвоните мне</h2>
+            <h3>Хочу уточнить по:</h3>
+            <form>
+                <div class="popup__radio">
+                    <div class="popup__radio-item">
+                        <input type="radio" id="popup-call__sale" name="request" value="sale" checked>
+                        <label for="popup-call__sale">Продаже</label>
+                    </div>
+                    <div class="popup__radio-item">
+                        <input type="radio" id="popup-call__repair" name="request" value="Ремонту">
+                        <label for="popup-call__repair">Ремонту</label>
+                    </div>
+                </div>
+                <div class="popup__phone">
+                    <h3>Мой номер телефона:</h3>
+                    <input type="tel" name="tel" pattern="+380[0-9]{9}" maxlength="13" placeholder="Введите телефон..." required="">
+                </div>
+                <button type="submit" id="submit-call">Отправить запрос</button>
+            </form>
+        </div>
+        <div class="popup__submited">
+            <div class="popup__accepted">
+                <h2>Ваш запрос принят</h2>
+                <img src="images/customer-service.png" alt="Succes">
+                <p>В ближайшее время с вами свяжется наш менеджер чтобы уточнить детали, которые вас интересуют.</p>
+            </div>
+        </div>
+        <div class="popup__close"></div>
+    </div>
+</div>
+
+  <section class="infoblock infoblock__repair">
+      <div class="container infoblock__container">
+          <div class="infoblock__text">
+              <h3>Покупка техники Apple</h3>
+              <p>Специалисты Apple разрабатывают лучшие в мире устройства, оснащённые инновационными дисплеями, процессорами, камерами и передовыми операционными системами и сервисами. В Apple Fixit вы можете приобрести любой из выпущенных телефонов от компании Apple. Оригинальный продукт с гарантией уже ждет вас!</p>
+          </div>
+      </div>
+  </section>
+
+  <section class="shop-radio">
+      <div class="container shop-radio__container">
+          <a class="shop-radio__item" href="shop.html">
+              <div class="shop-radio__icon">
+                  <img src="images/shop/phone.svg" alt="i">
+                  <img src="images/shop/phone-blue.svg" alt="i">
+              </div>
+              <span>Телефон</span>
+          </a>
+          <a class="shop-radio__item" href="shop.html">
+              <div class="shop-radio__icon">
+                  <img src="images/shop/tablet.svg" alt="t">
+                  <img src="images/shop/tablet-blue.svg" alt="t">
+              </div>
+              <span>Планшет</span>
+          </a>
+          <a class="shop-radio__item" href="shop.html">
+              <div class="shop-radio__icon">
+                  <img src="images/shop/clock.svg" alt="c">
+                  <img src="images/shop/clock-blue.svg" alt="c">
+              </div>
+              <span>Часы</span>
+          </a>
+          <a class="shop-radio__item" href="shop.html">
+              <div class="shop-radio__icon">
+                  <img src="images/shop/accessories.svg" alt="a">
+                  <img src="images/shop/accessories-blue.svg" alt="a">
+              </div>
+              <span>Аксессуары</span>
+          </a>
+          <a class="shop-radio__item" href="shop.html">
+              <div class="shop-radio__icon">
+                  <img src="images/shop/related.svg" alt="r">
+                  <img src="images/shop/related-blue.svg" alt="r">
+              </div>
+              <span>Сопутствующее</span>
+          </a>
+      </div>
+  </section>
+
+  <section class="stock">
+      <div class="stock__section">
+          <div class="container">
+              <h2>Apple iPhone</h2>
+          </div>
+          <div class="container stock__container">
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphone11promax.png" alt="iPhone 11 Pro Max Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone 11 Pro Max</h3>
+                            <p>от 31.300 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphone11.png" alt="iPhone 11 Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone 11</h3>
+                            <p>от 26.999 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphoneXR.png" alt="iPhone XR Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone XR</h3>
+                            <p>от 14.999 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphone8.png" alt="iPhone 8 Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone 8</h3>
+                            <p>от 8.999 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphone11promax.png" alt="iPhone 11 Pro Max Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone 11 Pro Max</h3>
+                            <p>от 31.300 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphone11.png" alt="iPhone 11 Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone 11</h3>
+                            <p>от 26.999 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphoneXR.png" alt="iPhone XR Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone XR</h3>
+                            <p>от 14.999 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphone8.png" alt="iPhone 8 Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone 8</h3>
+                            <p>от 8.999 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphone11promax.png" alt="iPhone 11 Pro Max Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone 11 Pro Max</h3>
+                            <p>от 31.300 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphone11.png" alt="iPhone 11 Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone 11</h3>
+                            <p>от 26.999 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphoneXR.png" alt="iPhone XR Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone XR</h3>
+                            <p>от 14.999 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphone8.png" alt="iPhone 8 Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone 8</h3>
+                            <p>от 8.999 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphone11promax.png" alt="iPhone 11 Pro Max Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone 11 Pro Max</h3>
+                            <p>от 31.300 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphone11.png" alt="iPhone 11 Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone 11</h3>
+                            <p>от 26.999 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphoneXRred.png" alt="iPhone XR Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone XR</h3>
+                            <p>от 14.999 грн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="stock__item">
+                    <a href="single-item.html">
+                        <div class="stock__image">
+                            <img src="images/shop/iphone8.png" alt="iPhone 8 Apple Fixit">
+                        </div>
+                        <div class="stock__title">
+                            <h3>iPhone 8</h3>
+                            <p>от 8.999 грн</p>
+                        </div>
+                    </a>
+                </div>
+          </div>
+      </div>
+  </section>
+
+<section class="infoblock infoblock__i">
+    <div class="container infoblock__container">
+        <div class="infoblock__text">
+            <img src="images/infoblock-i.svg" alt="info">
+            <h4>Если нужен телефон дешевле - в наличии множество моделей, свяжитесь с нами для подробной информации</h4>
+        </div>
+    </div>
+</section>
+
+<section class="infoblock infoblock__required">
+    <div class="container infoblock__container" style="background-image: url('images/repair-icon.svg')">
+        <div class="infoblock__text">
+            <h3>Разбили ваш iPhone?</h3>
+        </div>
+        <div class="infoblock__button">
+            <a href="repair.html">Узнать о ремонте</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__left">
+            <div class="footer__company-name">
+                <a href="index.html">
+                    <div class="footer__apple">Apple</div>
+                    <div class="footer__fixit">Fixit</div>
+                </a>
+            </div>
+            <div class="footer__developing">
+                <div class="footer__copyright">
+                    <p>Apple-FIXIT © 2019. Все права защищены.</p>
+                </div>
+                <div class="footer__split">
+                    <p>Дизайн и разработка
+                        <a href="https://splitdev.pro/" target="_blank">
+                            <img src="images/split-logo.svg" alt="split">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer__right">
+            <div class="footer__contact-column">
+                <h3>Адрес</h3>
+                <p>г.Кропивницкий,</p>
+                <p>Кировоградкая обл.,</p>
+                <p>ул. Вячеслава Черновола, 36</p>
+            </div>
+            <div class="footer__contact-column">
+                <h3>Время работы</h3>
+                <p>Пн-Пт с 9:00 до 19:00</p>
+                <p>Сб с 10:00 до 18:00</p>
+                <p>Вс с 11:00 до 17:00</p>
+            </div>
+            <div class="footer__contact-column">
+                <h3>Остались вопросы?</h3>
+                <div class="footer__tel">
+                    <a href="tel:+380508881010">(050) 888-10-10</a>
+                </div>
+                <div class="footer__tel">
+                    <a href="tel:+380506282940">(050) 628-29-40</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="./scripts/main.js"></script></body>
+</html>

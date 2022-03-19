@@ -1,0 +1,1320 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+<link href="styles/main.css" rel="stylesheet"></head>
+<body class="blog">
+<div class="background-blue-blog">
+<div class="header">
+    <div class="header__container">
+        <div class="header__left">
+            <div class="header__logo">
+                <a href="index-2.html">
+                    <img src="images/Logo/logo.svg" alt="Swell">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="direct-investor.html">For Investors</a>
+                    </li>
+                    <li>
+                        <a href="financial-advisors.html">For Financial Advisors</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__right">
+            <div class="header__login" id="login-popup">
+                <svg class="img-svg" xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"><g><g><path d="M12.325 6.353a.587.587 0 0 0-.514.411c-.069.228.01.473.2.62l4.362 3.537H1.12a.59.59 0 0 0-.465.189.571.571 0 0 0 .04.819.596.596 0 0 0 .425.15h15.254l-4.362 3.528a.57.57 0 0 0-.101.829.6.6 0 0 0 .849.067l5.634-4.56a.573.573 0 0 0 0-.895l-5.635-4.56a.596.596 0 0 0-.434-.135zM15.248.5C10.071.5 5.704 3.924 4.402 8.596a.576.576 0 0 0 .415.715c.152.04.314.02.45-.056a.585.585 0 0 0 .279-.351c1.163-4.176 5.056-7.246 9.702-7.246 5.566 0 10.071 4.399 10.071 9.842 0 5.443-4.505 9.842-10.07 9.842-4.647 0-8.54-3.08-9.703-7.255a.585.585 0 0 0-.278-.351.607.607 0 0 0-.45-.056.576.576 0 0 0-.415.715c1.3 4.672 5.668 8.105 10.845 8.105 6.201 0 11.252-4.929 11.252-11 0-6.07-5.05-11-11.252-11z"/></g></g></svg>
+                <span>Client Login</span>
+            </div>
+            <div class="header__enquire">
+                <a class="button button__light-blue" href="contact.html">Enquire</a>
+            </div>
+            <div class="header__burger" id="openTopNav">
+                <svg class="header__burger-svg" xmlns="http://www.w3.org/2000/svg" width="23" height="14" viewBox="0 0 23 14"><g><g><path d="M.903 2h21.194c.5 0 .903-.447.903-1 0-.553-.403-1-.903-1L.903.001c-.5 0-.903.447-.903 1C0 1.551.405 2 .903 2z"/></g><g><path d="M.903 8h21.194c.5 0 .903-.447.903-1 0-.553-.403-1-.903-1H.903C.403 6 0 6.447 0 7c0 .553.405 1 .903 1z"/></g><g><path d="M.903 14h21.194c.5 0 .903-.447.903-1 0-.553-.403-1-.903-1l-21.194.001c-.5 0-.903.447-.903 1 0 .552.405.999.903.999z" style="&#10;;&#10;"/></g></g></svg>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="top-nav" style="background-image: url('images/top-nav-mask.png')">
+    <div class="top-nav__container container">
+        <div class="top-nav__left">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="why-swell.html">Why Swell?</a>
+                    </li>
+                    <li>
+                        <a href="performance.html">Performance</a>
+                    </li>
+                    <li>
+                        <a href="resources.html">Resources</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">News</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="top-nav__login" id="top-nav-login-popup">
+                    <img src="images/common/login-white.svg" alt="">
+                    <span>Client Login</span>
+                </div>
+            </nav>
+            <div class="top-nav__copyright">
+                <p>© 2019 Swell Asset Management</p>
+            </div>
+        </div>
+        <div class="top-nav__right">
+            <div class="panels">
+                <div class="container">
+                    <div class="panels__container">
+                            <div class="panels__item panels__orange" style="background-image: url('images/manager.jpg')">
+                                <div class="panels__top">
+                                    <h3>Chart a course with a manager you can
+                                      <span>trust</span>.
+                                    </h3>
+                                </div>
+                                <div class="panels__bottom">
+                                      <a class="button button__orange button__arrow" href="#">Find out more</a>
+                                </div>
+                            </div>
+                            <div class="panels__item panels__blue" style="background-image: url('images/performance.jpg')">
+                                <div class="panels__top">
+                                    <h3>Deliver superior performance for your
+                                      <span>clients</span>.
+                                    </h3>
+                                </div>
+                                <div class="panels__bottom">
+                                      <a class="button button__blue button__arrow" href="#">Find out more</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top-nav__close" id="closeTopNav">
+        <img src="images/top-nav-close.svg">
+    </div>
+</div>
+<div class="popup-login">
+    <div class="popup-login__block">
+        <div class="popup-login__lock">
+            <i class="icon-np_lock"></i>
+        </div>
+        <div class="popup-login__inner">
+            <h3>Login to access Resources</h3>
+            <form>
+                <div class="popup-login__fileds">
+                    <input placeholder="Enter email address" type="text">
+                    <input placeholder="Enter password" type="text">
+                </div>
+                <button type="submit" class="button button__orange" id="submit-login">Login</button>
+            </form>
+            <a class="popup-login__register button button__grey" href="#" id="register-popup">Register</a>
+            <a class="popup-login__lost-password" href="#">Lost your password?</a>
+        </div>
+    </div>
+</div>
+<div class="popup-register">
+    <div class="popup-register__block">
+        <div class="popup-login__lock">
+            <i class="icon-np_lock"></i>
+        </div>
+        <div class="popup-register__inner">
+            <h3>Register an account</h3>
+            <form>
+                <div class="popup-register__fields">
+                    <input placeholder="First Name" type="text">
+                    <input placeholder="Last Name" type="text">
+                    <input placeholder="Investor Type" type="select">
+                    <input placeholder="Company" type="text">
+                    <input placeholder="Email Address" type="text">
+                    <input placeholder="Set Password" type="text">
+                </div>
+                <button type="submit" class="button button__orange" id="submit-register">Register</button>
+            </form>
+            <a class="popup-register__register button button__grey" href="#">Already have an account?</a>
+            <a class="popup-register__lost-password" href="#">Lost your password?</a>
+        </div>
+    </div>
+</div>
+<div class="container">
+  <h1>News</h1>
+  <div class="row">
+      <div class="featured">
+          <div class="featured__left" style="background-image: url('images/picture.png')">
+              <div class="featured__img">
+              </div>
+          </div>
+          <div class="featured__colinfo">
+              <div class="featured__info d-flex flex-column">
+                  <h3 class="featured__title">Alphabet’s X The Moonshot Factory Introduction</h3>
+                  <p class="featured__text">Tuesday 21 November 2019</p>
+                  <div class="featured__arrow">
+                      <a href="#" class="featured__text-up icon-np_next-arrow">Read more</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <a class="nav-item nav-link active" id="nav-all-tab" data-toggle="tab" href="#nav-all" role="tab" aria-controls="nav-all" aria-selected="true">All</a>
+      <a class="nav-item nav-link" id="nav-articles-tab" data-toggle="tab" href="#nav-articles" role="tab" aria-controls="nav-articles" aria-selected="false">Articles</a>
+      <a class="nav-item nav-link" id="nav-reviews-tab" data-toggle="tab" href="#nav-reviews" role="tab" aria-controls="nav-reviews" aria-selected="false">Book&nbsp;Reviews</a>
+      <a class="nav-item nav-link" id="nav-stock-tab" data-toggle="tab" href="#nav-stock" role="tab" aria-controls="nav-stock" aria-selected="false">Stock&nbsp;Updates</a>
+      <a class="nav-item nav-link" id="nav-events-tab" data-toggle="tab" href="#nav-events" role="tab" aria-controls="nav-events" aria-selected="false">Events</a>
+      <a class="nav-item nav-link" id="nav-media-tab" data-toggle="tab" href="#nav-media" role="tab" aria-controls="nav-media" aria-selected="false">Media</a>
+      <a class="nav-item nav-link" id="nav-newsletters-tab" data-toggle="tab" href="#nav-newsletters" role="tab" aria-controls="nav-newsletters" aria-selected="false">Newsletters</a>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
+      <div class="row">
+          <div class="col-sm-6 col-md-4">
+              <a href="#" class="blog-tile">
+                <div class="blog-tile__main">
+                  <div class="blog-tile__description">
+                    <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                    <p>Tuesday 21 November 2019 </p>
+                  </div>
+                </div>
+                <div class="blog-tile__link-box">
+                  <span class="blog-tile__link icon-np_next-arrow">
+                    Articles
+                  </span>
+                </div>
+              </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+              <a href="#" class="blog-tile">
+                <div class="blog-tile__main">
+                  <div class="blog-tile__description">
+                    <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                    <p>Tuesday 21 November 2019 </p>
+                  </div>
+                </div>
+                <div class="blog-tile__link-box">
+                  <span class="blog-tile__link icon-np_next-arrow">
+                    Articles
+                  </span>
+                </div>
+              </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+              <a href="#" class="blog-tile">
+                <div class="blog-tile__main">
+                    <div class="blog-tile__main-content">
+                      <img src="images/news.png" alt="">
+                    </div>
+                  <div class="blog-tile__description">
+                    <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                    <p>Tuesday 21 November 2019 </p>
+                  </div>
+                </div>
+                <div class="blog-tile__link-box">
+                  <span class="blog-tile__link icon-np_next-arrow">
+                    Events
+                  </span>
+                </div>
+              </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+              <a href="#" class="blog-tile">
+                <div class="blog-tile__main">
+                  <div class="blog-tile__description">
+                    <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                    <p>Tuesday 21 November 2019 </p>
+                  </div>
+                </div>
+                <div class="blog-tile__link-box">
+                  <span class="blog-tile__link icon-np_next-arrow">
+                    Articles
+                  </span>
+                </div>
+              </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+              <a href="#" class="blog-tile">
+                <div class="blog-tile__main">
+                  <div class="blog-tile__description">
+                    <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                    <p>Tuesday 21 November 2019 </p>
+                  </div>
+                </div>
+                <div class="blog-tile__link-box">
+                  <span class="blog-tile__link icon-np_next-arrow">
+                    Articles
+                  </span>
+                </div>
+              </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+              <a href="#" class="blog-tile">
+                <div class="blog-tile__main">
+                    <div class="blog-tile__main-content">
+                      <img src="images/news.png" alt="">
+                    </div>
+                  <div class="blog-tile__description">
+                    <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                    <p>Tuesday 21 November 2019 </p>
+                  </div>
+                </div>
+                <div class="blog-tile__link-box">
+                  <span class="blog-tile__link icon-np_next-arrow">
+                    Events
+                  </span>
+                </div>
+              </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+              <a href="#" class="blog-tile">
+                <div class="blog-tile__main">
+                  <div class="blog-tile__description">
+                    <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                    <p>Tuesday 21 November 2019 </p>
+                  </div>
+                </div>
+                <div class="blog-tile__link-box">
+                  <span class="blog-tile__link icon-np_next-arrow">
+                    Articles
+                  </span>
+                </div>
+              </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+              <a href="#" class="blog-tile">
+                <div class="blog-tile__main">
+                  <div class="blog-tile__description">
+                    <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                    <p>Tuesday 21 November 2019 </p>
+                  </div>
+                </div>
+                <div class="blog-tile__link-box">
+                  <span class="blog-tile__link icon-np_next-arrow">
+                    Articles
+                  </span>
+                </div>
+              </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+              <a href="#" class="blog-tile">
+                <div class="blog-tile__main">
+                    <div class="blog-tile__main-content">
+                      <img src="images/news.png" alt="">
+                    </div>
+                  <div class="blog-tile__description">
+                    <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                    <p>Tuesday 21 November 2019 </p>
+                  </div>
+                </div>
+                <div class="blog-tile__link-box">
+                  <span class="blog-tile__link icon-np_next-arrow">
+                    Events
+                  </span>
+                </div>
+              </a>
+          </div>
+        <a href="#" class="tab-content__cellar">
+          <i class="icon-np_next-arrow"></i>
+          <p>Load more</p>
+        </a>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="nav-articles" role="tabpanel" aria-labelledby="nav-articles-tab">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <a href="#" class="tab-content__cellar">
+          <i class="icon-np_next-arrow"></i>
+          <p>Load more</p>
+        </a>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="nav-reviews" role="tabpanel" aria-labelledby="nav-reviews-tab">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <a href="#" class="blog__cellar">
+          <i class="icon-np_next-arrow"></i>
+          <p>Load more</p>
+        </a>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="nav-stock" role="tabpanel" aria-labelledby="nav-stock-tab">
+      <div class="row">
+         <div class="col-sm-6 col-md-4">
+             <a href="#" class="blog-tile">
+               <div class="blog-tile__main">
+                 <div class="blog-tile__description">
+                   <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                   <p>Tuesday 21 November 2019 </p>
+                 </div>
+               </div>
+               <div class="blog-tile__link-box">
+                 <span class="blog-tile__link icon-np_download">
+                   Stock Updates
+                 </span>
+               </div>
+             </a>
+         </div>
+         <div class="col-sm-6 col-md-4">
+             <a href="#" class="blog-tile">
+               <div class="blog-tile__main">
+                 <div class="blog-tile__description">
+                   <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                   <p>Tuesday 21 November 2019 </p>
+                 </div>
+               </div>
+               <div class="blog-tile__link-box">
+                 <span class="blog-tile__link icon-np_download">
+                   Stock Updates
+                 </span>
+               </div>
+             </a>
+         </div>
+         <div class="col-sm-6 col-md-4">
+             <a href="#" class="blog-tile">
+               <div class="blog-tile__main">
+                 <div class="blog-tile__description">
+                   <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                   <p>Tuesday 21 November 2019 </p>
+                 </div>
+               </div>
+               <div class="blog-tile__link-box">
+                 <span class="blog-tile__link icon-np_download">
+                   Stock Updates
+                 </span>
+               </div>
+             </a>
+         </div>
+         <div class="col-sm-6 col-md-4">
+             <a href="#" class="blog-tile">
+               <div class="blog-tile__main">
+                 <div class="blog-tile__description">
+                   <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                   <p>Tuesday 21 November 2019 </p>
+                 </div>
+               </div>
+               <div class="blog-tile__link-box">
+                 <span class="blog-tile__link icon-np_download">
+                   Stock Updates
+                 </span>
+               </div>
+             </a>
+         </div>
+         <div class="col-sm-6 col-md-4">
+             <a href="#" class="blog-tile">
+               <div class="blog-tile__main">
+                 <div class="blog-tile__description">
+                   <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                   <p>Tuesday 21 November 2019 </p>
+                 </div>
+               </div>
+               <div class="blog-tile__link-box">
+                 <span class="blog-tile__link icon-np_download">
+                   Stock Updates
+                 </span>
+               </div>
+             </a>
+         </div>
+         <div class="col-sm-6 col-md-4">
+             <a href="#" class="blog-tile">
+               <div class="blog-tile__main">
+                 <div class="blog-tile__description">
+                   <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                   <p>Tuesday 21 November 2019 </p>
+                 </div>
+               </div>
+               <div class="blog-tile__link-box">
+                 <span class="blog-tile__link icon-np_download">
+                   Stock Updates
+                 </span>
+               </div>
+             </a>
+         </div>
+         <div class="col-sm-6 col-md-4">
+             <a href="#" class="blog-tile">
+               <div class="blog-tile__main">
+                 <div class="blog-tile__description">
+                   <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                   <p>Tuesday 21 November 2019 </p>
+                 </div>
+               </div>
+               <div class="blog-tile__link-box">
+                 <span class="blog-tile__link icon-np_download">
+                   Stock Updates
+                 </span>
+               </div>
+             </a>
+         </div>
+         <div class="col-sm-6 col-md-4">
+             <a href="#" class="blog-tile">
+               <div class="blog-tile__main">
+                 <div class="blog-tile__description">
+                   <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                   <p>Tuesday 21 November 2019 </p>
+                 </div>
+               </div>
+               <div class="blog-tile__link-box">
+                 <span class="blog-tile__link icon-np_download">
+                   Stock Updates
+                 </span>
+               </div>
+             </a>
+         </div>
+         <div class="col-sm-6 col-md-4">
+             <a href="#" class="blog-tile">
+               <div class="blog-tile__main">
+                 <div class="blog-tile__description">
+                   <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                   <p>Tuesday 21 November 2019 </p>
+                 </div>
+               </div>
+               <div class="blog-tile__link-box">
+                 <span class="blog-tile__link icon-np_download">
+                   Stock Updates
+                 </span>
+               </div>
+             </a>
+         </div>
+        <a href="#" class="tab-content__cellar">
+          <i class="icon-np_next-arrow"></i>
+          <p>Load more</p>
+        </a>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="nav-events" role="tabpanel" aria-labelledby="nav-events-tab">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <a href="#" class="tab-content__cellar">
+          <i class="icon-np_next-arrow"></i>
+          <p>Load more</p>
+        </a>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="nav-media" role="tabpanel" aria-labelledby="nav-media-tab">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <a href="#" class="tab-content__cellar">
+          <i class="icon-np_next-arrow"></i>
+          <p>Load more</p>
+        </a>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="nav-newsletters" role="tabpanel" aria-labelledby="nav-newsletters-tab">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Articles
+                </span>
+              </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="#" class="blog-tile">
+              <div class="blog-tile__main">
+                  <div class="blog-tile__main-content">
+                    <img src="images/news.png" alt="">
+                  </div>
+                <div class="blog-tile__description">
+                  <h4 class="blog-tile__text">Alphabet’s X The Moonshot Factory Introduction</h4>
+                  <p>Tuesday 21 November 2019 </p>
+                </div>
+              </div>
+              <div class="blog-tile__link-box">
+                <span class="blog-tile__link icon-np_next-arrow">
+                  Events
+                </span>
+              </div>
+            </a>
+        </div>
+        <a href="#" class="tab-content__cellar">
+          <i class="icon-np_next-arrow"></i>
+          <p>Load more</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<footer>
+  <div class="subscribe-box">
+      <div class="container">
+          <div class="subscribe-box__top">
+              <h2>Subscribe to Swell</h2>
+              <p>Sign-up to our newsletter to get all the news & updates on market and portfolio updates</p>
+          </div>
+      </div>
+      <div class="container">
+          <div class="subscribe-box__bottom">
+              <input placeholder="First Name" type="text">
+              <input placeholder="Last Name" type="text">
+              <input placeholder="Email address" type="text">
+              <button type="submit" class="button button__orange">Subscribe</button>
+          </div>
+      </div>
+  </div>
+  <div class="footer-cta" style="background-image: url('images/footer-background-mobile.png'); @media (min-width: 1440px) {background-image: url('images/footer-background.png');}">
+      <div class="footer-cta__inner">
+          <div class="footer-cta__top" style="background-image: url('images/footer-top.png')">
+              <div class="container">
+                  <div class="row">
+                      <div class="offset-md-2 offset-lg-3 col-md-6">
+                          <h2>Chart a course with a manager you can trust.</h2>
+                      </div>
+                      <div class="col-md-3">
+                          <a class="button button__white" href="#">About us</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-cta__bottom container">
+              <div class="row">
+                  <div class="offset-md-2 offset-lg-4 col-lg-3 col-md-4 footer-cta__company">
+                      <a href="index-2.html">
+                          <img src="images/Logo/logo.svg" alt="Swell">
+                      </a>
+                      <p>Swell Asset Management is an authorised representative of Hughes Funds Management </p>
+                  </div>
+                  <div class="col-md-2 footer-cta__menu">
+                      <h3>Swell</h3>
+                      <ul>
+                          <li>
+                              <a href="#">Why Swell?</a>
+                          </li>
+                          <li>
+                              <a href="#">Performance</a>
+                          </li>
+                          <li>
+                              <a href="#">Resources</a>
+                          </li>
+                          <li>
+                              <a href="#">News</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-3 col-lg-4 footer-cta__category">
+                      <a href="#">For Investors</a>
+                      <a href="#">For Financial Advisors</a>
+                  </div>
+              </div>
+              <div class="row footer-cta__social">
+                  <div class="offset-md-2 offset-lg-4 col-md-8">
+                      <a href="index-2.html">
+                          <i class="icon-facebook"></i>
+                      </a>
+                      <a href="index-2.html">
+                          <i class="icon-linkedin"></i>
+                      </a>
+                  </div>
+              </div>
+              <div class="row footer-cta__copyright">
+                  <div class="offset-md-2 offset-lg-4 col-md-8">
+                      <p>© 2019 Swell Asset Management</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<script type="text/javascript" src="scripts/main.js"></script></body>
+</html>

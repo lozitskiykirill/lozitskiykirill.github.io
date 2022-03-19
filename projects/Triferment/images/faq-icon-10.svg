@@ -1,0 +1,27 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1556.79 1297.32">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #427a15;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-linecap: square;
+        stroke-width: 37.52px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-width: 37.52px;
+      }
+    </style>
+  </defs>
+  <title>Artboard 2</title>
+  <g id="_19" data-name="19">
+    <polyline class="cls-1" points="885.84 580.69 885.84 442.84 749.89 442.84 749.89 580.69 612.09 580.69 612.09 716.63 749.89 716.63 749.89 854.48 885.84 854.48 885.84 716.63 1023.69 716.63 1023.69 580.69 885.84 580.69"/>
+    <circle class="cls-1" cx="817.89" cy="648.66" r="491.86" transform="translate(-219.12 768.32) rotate(-45)"/>
+    <path class="cls-2" d="M1105.55,408.27a373.38,373.38,0,0,1,87.21,240.39c0,207-167.83,374.87-374.87,374.87S443,855.7,443,648.66,610.85,273.79,817.89,273.79a373.17,373.17,0,0,1,223.56,73.93"/>
+  </g>
+</svg>

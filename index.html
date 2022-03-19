@@ -1,83 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Stylish Portfolio - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">Start Bootstrap</a></li>
+                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+                <li class="sidebar-nav-item"><a href="#about">About</a></li>
+                <li class="sidebar-nav-item"><a href="#services">Services</a></li>
+                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Header-->
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1">Stylish Portfolio</h1>
+                <h3 class="mb-5"><em>A Free Bootstrap Theme by Start Bootstrap</em></h3>
+                <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+                        <p class="lead mb-5">
+                            This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
+                            <a href="https://unsplash.com/">Unsplash</a>
+                            !
+                        </p>
+                        <a class="btn btn-dark btn-xl" href="#services">What We Offer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="content-section bg-primary text-white text-center" id="services">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h3 class="text-secondary mb-0">Services</h3>
+                    <h2 class="mb-5">What We Offer</h2>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
+                        <h4><strong>Responsive</strong></h4>
+                        <p class="text-faded mb-0">Looks great on any screen size!</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
+                        <h4><strong>Redesigned</strong></h4>
+                        <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
+                        <h4><strong>Favorited</strong></h4>
+                        <p class="text-faded mb-0">
+                            Millions of users
+                            <i class="fas fa-heart"></i>
+                            Start Bootstrap!
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
+                        <h4><strong>Question</strong></h4>
+                        <p class="text-faded mb-0">I mustache you a question...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Callout-->
+        <section class="callout">
+         <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mx-auto mb-5">
+                    Welcome to
+                    <em>your</em>
+                    next website!
+                </h2>
+                <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
+            </div>
+        </section>
+        <!-- Portfolio-->
+        <section class="content-section" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h3 class="text-secondary mb-0">Portfolio</h3>
+                    <h2 class="mb-5">Recent Projects</h2>
+                </div>
+                
+                <!-- Начало портфолио -->                 
+                
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="projects/Apple-Fixit/index.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Apple-fixit</div>
+                                    <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/apple-fixit.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="projects/Grandeur/index.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Grandeur</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/grandeur.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="projects/Edifice/index.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Edifice</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/edifice.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="projects/Swell/index.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Swell</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/swell.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="projects/Doterra/index.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Doterra</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/doterra.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="projects/Triferment/index.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Triferment</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/triferment.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="projects/FeedbackShots/index.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">FeedBack</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/feedback.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="projects/Giant/index.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Giant</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/giant.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="projects/Split/index.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Split</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/split.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="projects/AdBot/index.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Adbot</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/adbot.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="projects/Meningita/index.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Meningita</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/meningita.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="projects/Colebil/index.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Colebil</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/colebil.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    
+                    <div class="content-section-heading text-center">
+                        <h3 class="text-secondary mb-0">Portfolio</h3>
+                        <h2 class="mb-5">Online Shops</h2>
+                    </div>
+                     <div class="col-lg-6">
+                        <a class="portfolio-item" href="projects/zola/home.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Zola</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/zola.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://victory.phenix.digital/">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Victory</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/victory.jpg" alt="..." />
+                        </a>
+                    </div> 
+                     <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://nagan.phenix.digital/">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Nagan</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/nagan.jpg" alt="..." />
+                        </a>
+                    </div> 
+                     <div class="col-lg-6">
+                        <a class="portfolio-item" href="http://mak-trans.phenix.digital/">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Mak-Trans</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/mak-trans.jpg" alt="..." />
+                        </a>
+                    </div> 
+                     <div class="col-lg-6">
+                        <a class="portfolio-item" href="http://ozerka-corporate.phenix.digital/">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Ozerka</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/ozerka.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://goodcasting.net/">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Goodcasting</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/goodcasting.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://svinets.dp.ua/
+                        ">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Svinets</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/svinets.jpg" alt="..." />
+                        </a>
+                    </div> 
+                     <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://attolis.ua/
+                        ">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Attolis</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/attolis.jpg" alt="..." />
+                        </a>
+                    </div> 
+                     <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://zmz-zp.com/
+                        ">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Zmz</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/zmz.jpg" alt="..." />
+                        </a>
+                    </div> 
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://domskinali.com.ua/
+                        ">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Domskinali</div>
+                                    <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="images/domskinali.jpg" alt="..." />
+                        </a>
+                    </div> 
+                            </div>
+                   
 
-<body>
-
-    <div class="heading">
-        <h1>Portfolio</h1>
-        <h3>Lozitsky Kirill</h3>
-        <h4>Junior Frontend Developer 4444</h4>
-    </div>
-<div class="panels">
-    <a class="item" href="Apple-Fixit/index.html" style="background-image: url('apple-fixit.jpg')">
-        <span>
-            Apple Fixit
-        </span>
-    </a>
-    <a class="item" href="Grandeur/index.html" style="background-image: url('grandeur.jpg')">
-        <span>
-            Grandeur
-        </span>
-    </a>
-    <a class="item" href="Edifice/index.html" style="background-image: url('edifice.jpg')">
-        <span>
-            Edifice Homes
-        </span>
-    </a>
-    <a class="item" href="Swell/index.html" style="background-image: url('swell.jpg')">
-        <span>
-            Swell
-        </span>
-    </a>
-
-    <a class="item" href="Doterra/sitemap.html" style="background-image: url('doterra.jpg')">
-        <span>
-            Doterra
-        </span>
-    </a>
-    <a class="item" href="Triferment/index.html" style="background-image: url('triferment.jpg')">
-        <span>
-            Triferment
-        </span>
-    </a>
-    <a class="item" href="FeedbackShots/index.html" style="background-image: url('feedback.jpg')">
-        <span>
-            FeedbackShots
-        </span>
-    </a>
-    <a class="item" href="Giant/index.html" style="background-image: url('giant.jpg')">
-        <span>
-            Giant
-        </span>
-    </a>
-    <a class="item" href="Split/index.html" style="background-image: url('split.jpg')">
-        <span>
-            Split
-        </span>
-    </a>
-    <a class="item" href="AdBot/index.html" style="background-image: url('adbot.jpg')">
-        <span>
-            AdBot
-        </span>
-    </a>
-    <a class="item" href="Meningita/index.html" style="background-image: url('meningita.jpg')">
-        <span>
-            Meningita
-        </span>
-    </a>
-    <a class="item" href="Colebil/index.html" style="background-image: url('colebil.jpg')">
-        <span>
-            Colebil
-        </span>
-    </a>
-</div>
-
-</body>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Call to Action-->
+        <section class="content-section bg-primary text-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">The buttons below are impossible to resist...</h2>
+                <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
+                <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
+            </div>
+        </section>
+        <!-- Map-->
+        <div class="map" id="contact">
+            <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+            <br />
+            <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small>
+        </div>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
+                    </li>
+                </ul>
+                <p class="text-muted small mb-0">Copyright &copy; Your Website 2021</p>
+            </div>
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
+<style>
+    .row {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
+    .portfolio-item {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        max-width: 530px;
+        margin: auto auto 1rem;
+        height: 100%;
+    }
+    .portfolio-item .caption {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .portfolio-item img {
+        max-width: 100%;
+    }
+    .portfolio-item .caption .caption-content {
+        color: #fff;
+        margin: auto 2rem 2rem;
+    }
+    .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .portfolio-item .caption .caption-content p {
+        font-weight: 300;
+        font-size: 1.2rem;
+        opacity: 0;
+        transition: 0.3s;
+        min-height: 60px;
+    }
+    @media (min-width: 992px) {
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
 
+        .portfolio-item {
+            max-width: none;
+            margin: 0;
+        }
+        .portfolio-item .caption {
+            transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+            transition: clip-path 0.25s ease-out, background-color 0.7s;
+            transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+            -webkit-clip-path: inset(0px);
+            clip-path: inset(0px);
+        }
+        .portfolio-item .caption .caption-content {
+            transition: opacity 0.25s;
+            margin-left: 5rem;
+            margin-right: 5rem;
+            margin-bottom: 5rem;
+        }
+        .portfolio-item img {
+            transition: -webkit-clip-path 0.25s ease-out;
+            transition: clip-path 0.25s ease-out;
+            transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
+            -webkit-clip-path: inset(-1px);
+            clip-path: inset(-1px);
+            object-fit: cover;
+            height: 100%;
+        }
+        .portfolio-item:hover img {
+            -webkit-clip-path: inset(2rem);
+            clip-path: inset(2rem);
+        }
+        .portfolio-item:hover .caption {
+            background-color: rgba(29, 128, 159, 0.9);
+            -webkit-clip-path: inset(2rem);
+            clip-path: inset(2rem);
+        }
+        .portfolio-item:hover .caption .caption-content p {
+            opacity: 1;
+            transition: 0.5s;
+        }
+    }
+</style>
