@@ -11432,7 +11432,10 @@ html {
   display: block;
   max-width: 30rem;
 }
-
+.callout .btn {
+    margin-right: 10px;
+    margin-left: 10px
+}
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -11480,6 +11483,20 @@ footer.footer .social-link:hover {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+    color: #fff;
+}
+.masthead .avatar-photo {
+  width: 80px;
+  height: 82px;
+  margin: auto;
+  display: block;
+  overflow: hidden;
+  border-radius: 100px;
+}
+.masthead .avatar-photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;    
 }
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
