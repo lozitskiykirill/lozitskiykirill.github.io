@@ -11290,8 +11290,18 @@ body,
 html {
   width: 100%;
   height: 100%;
+    
 }
-
+.about-image {
+    max-width: 100%;
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+@media (min-width: 992px) {
+  .about-image {
+    padding-right: 30px;
+}
+}
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
