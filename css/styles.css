@@ -11567,6 +11567,7 @@ footer.footer .text-muted {
   opacity: 0;
   transition: 0.3s;
   min-height: 60px;
+
 }
 @media (min-width: 992px) {
   .portfolio-item {
