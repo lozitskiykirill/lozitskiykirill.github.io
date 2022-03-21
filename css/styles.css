@@ -3010,6 +3010,8 @@ textarea.form-control-lg {
   font-size: 1rem;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    
+    margin: 0 10px 10px 10px;
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -11523,19 +11525,19 @@ footer.footer .text-muted {
   padding: 0;
 }
 .recent-projects .col-lg-5 {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 .recent-projects .col-lg-7 {
-    margin-bottom: 30px;
-}
-.project-description {
-    margin-right: 10px;
-}
-.project-description.project-left {
-    margin-right: 10px;
+    margin-bottom: 60px;
 }
 .project-description.project-right {
     margin-left: 10px;
+}
+.recent-projects.flex-lg-row-reverse .project-description {
+    margin-right: 0;
+}
+.recent-projects .project-description {
+    margin-left: 0;
 }
 @media (min-width: 992px) {
   .masthead {
@@ -11544,11 +11546,17 @@ footer.footer .text-muted {
   .masthead h1, .masthead .h1 {
     font-size: 5.5rem;
   }
-    .project-description {
-        margin: 0 10px;
+    .recent-projects.flex-lg-row-reverse .project-description {
+        margin-right: 30px;
+        margin-left: 0;
+    }
+    .recent-projects .project-description {
+        margin-left: 30px;
     }
 }
-
+.project-links {
+    margin: 10px 0 10px -10px;
+}
 .portfolio-item {
   display: block;
   position: relative;
@@ -11573,6 +11581,7 @@ footer.footer .text-muted {
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
+    width: 100%
 }
 .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
   font-size: 1.5rem;
