@@ -11522,6 +11522,21 @@ footer.footer .text-muted {
   margin: 0;
   padding: 0;
 }
+.recent-projects .col-lg-5 {
+    margin-bottom: 30px;
+}
+.recent-projects .col-lg-7 {
+    margin-bottom: 30px;
+}
+.project-description {
+    margin-right: 10px;
+}
+.project-description.project-left {
+    margin-right: 10px;
+}
+.project-description.project-right {
+    margin-left: 10px;
+}
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
@@ -11529,6 +11544,9 @@ footer.footer .text-muted {
   .masthead h1, .masthead .h1 {
     font-size: 5.5rem;
   }
+    .project-description {
+        margin: 0 10px;
+    }
 }
 
 .portfolio-item {
