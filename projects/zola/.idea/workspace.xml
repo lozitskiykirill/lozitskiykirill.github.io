@@ -11,7 +11,7 @@
   <component name="ProjectId" id="26Z6TXMEzZHyaxMUVLtHdEFSF8e" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Kirill/work/portfolio-2022" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,6 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647618768816</updated>
       <workItem from="1647618769938" duration="11425000" />
+      <workItem from="1648142015969" duration="685000" />
     </task>
     <servers />
   </component>
